@@ -64,7 +64,7 @@
 
 // -----pow------------
 
-x = 4.6
+// x = 4.6
 // y = 2
 
 // document.write(`O numero ${x} elevado a 2 é = ${Math.pow(x, 2)}`)
@@ -101,8 +101,51 @@ x = 4.6
 
 
 
-// ----------------------------------------
+// ----------- trunc - max - min ---------------------------
 
+// a = parseFloat(prompt('Digite um numero'))
+
+// document.write(`a parte inteira do numero ${a} é ${Math.trunc(a)}` )
+
+
+// b = [1,4,2,7,5,46,6,5,5,6,4,9]
+// document.write(`o maior numero é ${Math.max(...b)}`)
+// document.write(`<br>O  menor valor da lista é ${Math.min(...b)}`)
+
+
+// ---------------if - else if - else-----------------------
+
+// idade = +(prompt('Digite sua idade'))
+
+// if(idade >= 18){
+//     document.write(`voce tem ${idade}, é maior de idade`)
+// }
+// else{
+//     document.write(`voce tem ${idade}, é menor de idade`)
+// }
+
+// nota = +(prompt('Digite sua nota'))
+
+// if(nota >= 7){
+//     document.write(`Aprovado!`)
+// }
+// else if(nota >= 6 && nota < 7){
+//     document.write(`Recuperação!`)
+// }
+// else{
+//     document.write(`Reprovado!`)
+// }
+
+// ds = prompt('Digite o dia da semana')
+// 	if(ds == 'sabado' || ds == 'domingo'){
+// 		document.write(`<br>Bom final de semana!`)
+// 	}else if(ds == 'segunda'){
+// 		document.write(`<br>Boa sorte!`)
+// 	}else if(ds =='sexta'){
+// 		document.write(`<br>Sextooooo!`)
+// 	}else{
+// 		document.write(`<br>dia normal, meus pesames!`)
+// 	}
 
 
 
