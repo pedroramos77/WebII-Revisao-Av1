@@ -113,6 +113,8 @@
 // document.write(`<br>O  menor valor da lista é ${Math.min(...b)}`)
 
 
+// CONDICIONAIS
+
 // ---------------if - else if - else-----------------------
 
 // idade = +(prompt('Digite sua idade'))
@@ -147,6 +149,89 @@
 // 		document.write(`<br>dia normal, meus pesames!`)
 // 	}
 
+// --------------------------------------------
+
+// FOR - SWITCH - TERNARIO
+
+// --------FOR----------------
+
+// for(var i = 0; i < 10; i++){
+//     document.write(`${i}`)
+// }
+
+// for(var i = 10; i >= 0; i--){
+//     document.write(`${i}`)
+// }
+
+// for(i=0;i<=20;i +=2){
+// 	document.write(`<br> ${i}`)
+// }
+
+// nome = ['Maria', 'Paulo', 'Julia', 'Lucas']
+
+// for(i = 0; i < nome.length;i++){
+//     document.write(`<br> ${nome[i]}`)
+// }
+
+// length -> tamanho do vetor(sizeof)!!!!
+
+// a = +(prompt('tabuada de que numero?'))
+
+// for(i = 0; i < 11;i++){
+//     document.write(`<br>${a} x ${i} = ${a * i}`)
+// }
+
+// for(i=0;i<=5;i++){
+// 	for(j=0;j<=5;j++){
+// 		document.write(`<br>${i} x ${j} = ${i * j}`)
+// 	}
+// }
+
+// for(i=0;i <= 20;i++){
+// 	if(i % 2 == 0){
+// 		document.write(`<br>${i}`)
+// 	}
+// }
 
 
+// var palavra = prompt('Digite uma palavra')
+// palavrainvertida = ''
+
+// for(i = palavra.length - 1; i >=0; i--){
+// 	palavrainvertida += palavra[i]
+// }
+// document.write(`<br>Palavra original: ${palavra}, Palavra invertida: ${palavrainvertida}`)
+
+// maiusculas e minusculas-------------------
+
+
+// nomes = ['julia', 'maria', 'joao', 'pedro']
+
+// for(i = 0; i < nomes.length; i++){
+//     document.write(`${nomes[i].toUpperCase()} `)
+
+        // .toLowerCase()
+// }
+
+//break -------------------------------------------
+
+// for(i=0;i<=10;i++){
+// 	document.write(`<br>${i}`)
+// 	if( i >= 5){
+// 		break
+// 	}
+// }
+
+//continue -------------------------------------------
+
+// for(i=0;i<=10;i++){
+	// if(i == 5){
+	// 	continue
+	// }
+	// document.write(`<br>${i}`)
+// }
+
+sexo = prompt('Digite F(feminino),M(masculino) e O (outros)')
+
+sexo = sexo.toLowerCase()
 
