@@ -202,7 +202,7 @@
 // }
 // document.write(`<br>Palavra original: ${palavra}, Palavra invertida: ${palavrainvertida}`)
 
-// maiusculas e minusculas-------------------
+// maiusculas e minusculas-------------------toLowerCase()-toUpperCase
 
 
 // nomes = ['julia', 'maria', 'joao', 'pedro']
@@ -231,7 +231,31 @@
 	// document.write(`<br>${i}`)
 // }
 
-sexo = prompt('Digite F(feminino),M(masculino) e O (outros)')
+// SWITCH---------------------
 
-sexo = sexo.toLowerCase()
+// sexo = prompt('Digite F(feminino),M(masculino) e O (outros)')
+
+// sexo = sexo.toLowerCase()
+
+// switch(sexo){
+//     case 'm':
+// 		document.write('Masculino')
+// 		break
+// 	case 'f':
+// 		document.write('Feminino')
+// 		break
+// 	case 'o':
+// 		document.write('Outros')
+// 		break
+// 	default:
+// 		document.write('Opção invalida')
+// }
+
+// --------------------------
+
+// WHILE - DO WHILE - FUNÇÃO
+
+// -----------FUNÇÃO-------------
+
+
 
