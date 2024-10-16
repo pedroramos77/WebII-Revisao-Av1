@@ -62,6 +62,48 @@
 // BIBLIOTECA MATH
 
 
+// -----pow------------
+
+x = 4.6
+// y = 2
+
+// document.write(`O numero ${x} elevado a 2 é = ${Math.pow(x, 2)}`)
+
+// --------------------
+
+// a = +(prompt('Digite um numero!'))
+// b = +(prompt('Digite a potencia'))
+
+// document.write(`o valor de ${a} elevado a ${b} é de ${Math.pow(a,b)}`)
+
+// -----------------sqrt - cbrt - round - ceil - floor - random ------------
+
+// to fixed - casas decimais
+// round - arredonda matematicamente 
+// ceil - arredonda pra cima
+// floor - arredonda pra baixo
+
+// document.write(`<br> a raiz quadrada de ${x} é ${Math.sqrt(x).toFixed(2)}`)
+
+// document.write(`a raiz cubica de ${x} é ${Math.cbrt(x).toFixed(2)}`)
+
+// document.write(`o numer ${x} arredondado é ${Math.round(x)}`)
+
+// document.write(`o numero ${x} arredondado pra cima é ${Math.ceil(x)}`)
+
+// document.write(`o numer ${x} arredondado pra baixo é ${Math.floor(x)}`)
+
+
+
+// document.write(`Numero aleatori0 ${Math.random().toFixed(1)}`)
+
+// document.write(`Numero aleatori0 ${(Math.random() * 50).toFixed(0) + 1}`)
+
+
+
+// ----------------------------------------
+
+
 
 
 
