@@ -99,6 +99,8 @@
 
 // document.write(`Numero aleatori0 ${(Math.random() * 50).toFixed(0) + 1}`)
 
+// document.write(`numero aleatorio entre 1 e 100 = ${Math.floor(Math.random() * 10) + 1}`)
+
 
 
 // ----------- trunc - max - min ---------------------------
@@ -255,7 +257,235 @@
 
 // WHILE - DO WHILE - FUNÇÃO
 
-// -----------FUNÇÃO-------------
+// -----------WHILE-------------
+
+// var a = 0
+// while(a <= 10){
+// 	document.write(`<br>${a}`)
+// 	a++
+// }
+
+// var b = Number(prompt('Digite um numero até 50'))
+// while(b <= 50){
+// 	document.write(`<br>Numero:${b}`)
+// 	b = b + 2
+// }
+
+// var c = 10
+// while(c >= 0){
+// 	document.write(`<br>Numero:${c}`)
+// 	c-- 
+// }
+
+// n = 1
+
+// par = impar = 0
+
+// while(n != 0){
+// 	n = +(prompt('Digite um numero'))
+// 	if(n != 0){
+// 		if(n % 2 == 0){
+// 			par++;
+// 		}
+// 		else{
+// 			impar++;
+// 		}
+// 	}
+// }
+
+// document.write(`<br>Você digitou ${par} numeros pares e ${impar} numeros impares`)
+
+
+// n1 = 0
+// while(n1 < 5){
+// 	n1++
+// 	if(n1 == 3){
+// 	break
+// 	}
+// document.write(`<br>${n1}`)
+// }
+
+// c = Math.floor(Math.random()* 11);
+
+// acerto = false
+
+// palpite = 0
+
+// while(acerto == false){
+// 	j = +(prompt('Palpite'))
+// 	palpite++
+// 	if(j == c){
+// 		acerto = true
+// 	}
+// }
+
+// document.write(`<br>Legal!você acertou em  ${palpite} palpites`)
+// document.write(`<br>O numero sorteado foi ${c}`)
+
+// ----------------
+
+// var opcao
+
+// do{
+// 	console.log('Menu de operações')
+// 	console.log('1. Adição')
+// 	console.log('2. Subtração')
+// 	console.log('3. Multiplicação')
+// 	console.log('4. Divisão')
+// 	console.log('5. Sair')
+	
+// 	opcao = parseFloat(prompt('Escolha a operação desejada: '))
+// 	if(opcao >= 1 && opcao <= 4){
+// 		num1 = parseFloat(prompt('Digite o primeiro numero: '))
+// 		num2 = parseFloat(prompt('Digite o segundo numero: '))
+		
+// 		var result
+// 	switch(opcao){
+// 		case 1:
+// 			result = num1 + num2
+// 			console.log(`Resultado: ${num1}+ ${num2} = ${result} `)
+// 			break
+// 		case 2:
+// 			result = num1 - num2
+// 			console.log(`Resultado: ${num1}- ${num2} = ${result} `)
+// 			break
+// 		case 3:
+// 			result = num1 * num2
+// 			console.log(`Resultado: ${num1}* ${num2} = ${result} `)
+// 			break
+// 		case 4:
+// 			if(num2 != 0){
+// 				result = num1 / num2
+// 				console.log(`Resultado: ${num1}/${num2} = ${result} `)
+// 			}else{
+// 				console.log(`Erro:Divisão por zero não é permitido`)
+// 			}
+// 			break
+// 			}
+// 		break
+// 	}
+// 		else if(opcao == 5){
+// 			console.log(`Saindo do menu.`)
+// 			// break
+// 		}
+// 		else{
+// 			console.log(`Opção invalida.`)
+// 		}	
+	// }while(opcao != 5) //true
+
+
+	// FUNÇÃO--------------------------------------
+
+// function mensagem(){
+// 	document.write(`Mensagem`)
+// }
+
+// mensagem()
+				
+// function mensagem1(){
+		
+// 	return 'Olá Bom dia'
+// }
+
+// document.write(`${mensagem1()}`)
+
+// function mensagem(nome){
+// 	document.write(`Olá Bom dia! ${nome}`)
+// }
+
+// nome = prompt('Digite seu nome')
+// mensagem(nome)
+
+// function mensagem(nome){
+// 	return `Ola Bom dia! ${nome}`
+// }
+
+// nome = prompt('Seu nome')
+// document.write(`${mensagem(nome)}`)
+
+// se tem document write na função, nao precisa repetir, só chamar função () em caso de string ou de verificação de true or false (exemplo)
+// só usa document write fora da função quando usar return
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// CONTA COM FUNÇÃO----------------------------
+
+// function soma(x,y){
+
+// 	return x + y
+
+// }
+
+// x = +(prompt('Digite um numero'))
+// y = +(prompt('Digite um numero'))
+
+// document.write(`a soma é ${soma(x,y)}`)
+
+// function soma2(x,y){
+
+// 	document.write(`a soma é: ${x + y}`)
+// }
+
+// x = +(prompt('numero'))
+// y = +(prompt('numero'))
+
+// soma2(x,y)
+
+// function media(m){
+// 	m = (n1 + n2 + n3) / 3
+
+// 	return m
+// }
+
+// n1 = +(prompt('n1'))
+// n2 = +(prompt('n2'))
+// n3 = +(prompt('n3'))
+
+
+// document.write(`${media()}`) <-------------!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+// function par(num){
+	
+// 	return num % 2 == 0
+// }
+
+// num = parseFloat(prompt('Digite o valor de num: '))
+// document.write(`<br>O numero é par? ${par(num)}`) <-------------!!!!!!!!!!!!!!!!!!!!!!!!
+
+// function fatorial(n){
+// 	if(n == 0 || n == 1){
+// 		return 1
+// 	}
+
+
+// 	return n * fatorial(n - 1) <-------------!!!!!!!!!!!!!!!!!!!!!!!!
+// }
+// n = parseFloat(prompt('Digite o valor de numero: '))
+// document.write(fatorial(n))
+
+
+
+// VETORES
+
+// ARRAY INICIA EM 0
+
+// var a = new Array()
+// document.write(`${a}`)
+// 	document.write(`<br>O tamanho do array é ${a.length}`)
+
+// var b = new Array(true,1,2,3,4,new Array(1,2,3),2,'a')
+
+// // document.write(`<br> ${b}`)
+// // document.write(`<br> ${b[5][2]}`)
+// // document.write(`<br>${b[5]}`)
+
+// document.write(`${b.length}`)
+// document.write(`${b[5].length}`)
+
+
+
+
 
 
 
