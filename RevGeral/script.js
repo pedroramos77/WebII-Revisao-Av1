@@ -689,3 +689,57 @@
 // numero = +(prompt('Digite um numero'))
 // document.write(`<br>${num(numero)}`)
 
+
+// CONTINUA FUNÇÕES--------------------
+
+// Função every() - verifica se todods os elementos atendem as condições
+
+// nome = ['Thereza','Eva','Flora']
+// function n(elemen){
+// 	return(typeof elemen == 'string')
+// }
+
+// document.write(`${nome.every(n)}`)
+
+// numeros = [2,4,6,8]
+
+// function numero(num){
+// 	return num % 2 == 0
+// }
+
+// document.write(`${numeros.every(numero)}`)
+
+
+// filter() -> filtrar elementos
+
+// frutas = ['banana','abacaxi','uva','laranja','manga','morango']
+// function f(elem){
+// 	return (elem.indexOf('an') > 0)
+// }
+// document.write(`<br>${frutas.filter(f)}`)
+
+
+// numeros = [1,2,3,4,5,6,7,8,9,10]
+// impar = numeros.filter(function(n){
+// 	return n % 2 != 0
+// })
+// document.write(`<br>Os numeros impares são: ${impar}`)
+
+// Função map() - cria um novo vetor com os resultados da função aplicada
+
+// var numeros2 = [1,2,3,4,5]
+
+// dobro = numeros2.map(function(n1){
+// 	return n1 * 2
+// })
+// document.write(`<br>O novo vetor é ${dobro}`)
+
+// /Função reduce() - soma todos os elementos do array -------------
+
+// numeros3 = [10,20,30,40,50]
+// soma = 0
+// soma = numeros3.reduce(function(t,n){
+// 	return t + n
+// })
+// document.write(`<br>A soma de todos os elemntos do vetor é ${soma}`)
+
