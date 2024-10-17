@@ -9,5 +9,19 @@
 // 7 - b
 // 8 - d
 
+distancia = +(prompt('Digite a distancia'))
+let valor 
 
-- 
+switch(true){
+    case (distancia <= 100):
+        valor = distancia * 10
+        break
+    case (distancia >= 101 && distancia <= 300):
+        valor = distancia * 8
+        break
+    case (distancia > 300):
+        valor = distancia * 6
+        break
+}
+
+document.write(`${valor}`)
